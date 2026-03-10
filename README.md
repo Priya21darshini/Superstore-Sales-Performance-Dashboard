@@ -1,7 +1,8 @@
 # Superstore Sales Performance Dashboard
 
-This project presents an interactive **Power BI dashboard** created using the Superstore dataset to analyze sales performance, profit trends, and regional insights.
 
+This project performs end-to-end retail sales analysis using SQL, Python, and Power BI. 
+The Superstore dataset was cleaned and analyzed using Python in Google Colab, followed by the development of an interactive Power BI dashboard to visualize sales performance, profit trends, and regional insights.
 ## Dashboard Preview
 ![Dashboard](Dashboard.png)
 
@@ -25,17 +26,19 @@ This project presents an interactive **Power BI dashboard** created using the Su
 
 These filters allow users to dynamically change the dashboard insights.
 
-## Tools Used
-- Power BI
-- DAX
-- Python (Google Colab)
-- CSV Dataset
+## Tools & Technologies
+- SQL – data querying and transformation
+- Python (Google Colab) – data cleaning and exploratory analysis
+- Power BI – dashboard development and visualization
+- DAX – KPI calculations
+- Dataset – Superstore sales CSV
 
-## Project Files
-- `superstore_sales.csv` → dataset
-- `data_analysis.ipynb` → data cleaning and analysis
-- `superstore_dashboard.pbix` → Power BI dashboard
-- `dashboard.png` → dashboard preview image
+## Project Workflow
+1. Data collection from the Superstore dataset
+2. Data cleaning and preprocessing using Python (Pandas)
+3. Exploratory data analysis in Google Colab
+4. Data modeling and KPI creation using Power BI and DAX
+5. Development of an interactive dashboard for business insights
 
 ## Insights
 - Technology category generates the highest sales.
